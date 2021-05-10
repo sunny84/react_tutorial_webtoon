@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Main from './Main';
 
 class Viewer extends Component{
     render(){
@@ -9,4 +8,4 @@ class Viewer extends Component{
     }
 }
 
-export default Main;
+export default Viewer;
