@@ -33,8 +33,6 @@ class Viewer extends Component{
     }
 
     render(){
-        console.log(this.state.episodeId);
-        console.log(this.state.episode.id);
         const episode = this.state.episode;
         return (
             <div className="wrap_viewer">
