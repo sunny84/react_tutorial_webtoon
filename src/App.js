@@ -14,7 +14,7 @@ class App extends Component {
         <div>
           <Route exact path="/" component={Main} />
           <Route path="/webtoon/:webtoonId" component={WebtoonHome} />
-          <Route path="/viewer/:episodeld" component={Viewer} />
+          <Route path="/viewer/:episodeId" component={Viewer} />
         </div>
       </Router>
     )
